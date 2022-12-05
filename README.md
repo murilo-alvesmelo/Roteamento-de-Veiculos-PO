@@ -1,5 +1,8 @@
 # Roteamento de Veiculos - Pesquisa Operacional
 
+## Alunos: 
+
+Julio Cezar, Murilo Alves, Plácido Neto e Pedro Thomas
 
 ## Modelo Matemático
 
