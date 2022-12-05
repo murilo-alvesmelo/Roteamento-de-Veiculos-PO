@@ -48,3 +48,23 @@
     assim as 7 primeiras colunas representam os clientes a serem atendidos pelos veículos, e as 6 ultimas são espaço 
     para permutações da matriz que representam a ordem dos clientes por veículo. A matriz por completo 
     é denominada matriz de permutação
+
+![image](https://user-images.githubusercontent.com/83835393/205768742-b5a4cb08-3312-4445-9065-543b897d8f72.png)
+![image](https://user-images.githubusercontent.com/83835393/205768911-6de901c1-003e-40a5-bcda-0ba188eb0c9e.png)
+
+        Ela é gerada com permutações aleatórias e quando combinada com outros cromossomos resultam em diferentes 
+    matrizes permutadas, consequentemente diferentes conjuntos de rotas. Essas matrizes determinam a ordem em que 
+    os clientes devem ser atendidos. Em seguida temos um pseudocódigo que representa o funcionamento do algoritmo.
+
+## Pseudocodigo:
+        Declara a geração T, o número máximo de gerações NG, e o numero de gerações iniciais (sem melhorias) NS.
+    Eles recebem respectivamente os valores de 0 para T, número máximo de gerações de 5000 e 30 para o número de 
+    gerações iniciais.
+        Uma geração P é iniciada em função do tempo, e são geradas soluções para o algoritmo. Enquanto o numero de 
+    gerações for menor que o limite de gerações, novas gerações são criadas, e calcula rotas de aptidão para cada 
+    população. 
+        Se o numero de gerações sem melhorias forem atingidas, o algoritmo busca o melhor vizinho dentro do conjunto, 
+    e caso o vizinho seja melhor que o indivíduo, o vizinho o substitui. Após isso são aplicados operadores genéticos 
+    (Seleção, cruzamento, mutação e elitismo). E por fim retorna P (melhor individuo).
+
+![image](https://user-images.githubusercontent.com/83835393/205769437-5f26b9b5-d21e-476a-a88c-45f7532416dc.png)
