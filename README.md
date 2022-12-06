@@ -4,6 +4,21 @@
 
 Julio Cezar, Murilo Alves, Plácido Neto e Pedro Thomas
 
+## Introdução
+
+          O VRP é um problema que consiste em definir rotas para um conjunto de veículos
+        estacionados em um depósito central que irão servir um conjunto de clientes,
+        minimizando os custos de transporte. 
+          Este problema corresponde a problemas de
+        otimização no intuito de cobrir os nós de um grafo, contendo um nó representando o
+        depósito, a mínimo custo. Os problemas reais são caracterizados por diversas
+        restrições que limitam a tipologia dos ciclos e tornam o VRP um dos mais difíceis
+        entre os problemas de otimização combinatorial. 
+          O VRP é tido com NP-hard e os
+        algoritmos exatos propostos na literatura são capazes de resolver apenas problemas
+        de menores dimensões e aparentemente não levam em consideração a complexidade
+        de problemas reais.
+
 ## Modelo Matemático
 
         O modelo matemático apresentado para o PRV, tem como objetivo a minimização 
